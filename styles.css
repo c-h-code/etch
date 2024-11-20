@@ -1,0 +1,40 @@
+.gridRow{
+    flex:1;
+    display: flex;
+}
+.gridBox{
+    flex:1;
+    border: solid;
+    border-width: .001px;
+    
+}
+.grid{
+    flex-direction: column;
+    display: flex;
+    width:960px;
+    height:960px;
+    background-color: white;
+    
+}
+.border{
+    display: flex;
+    width: 1200px;
+    height: 1100px;
+    background-color: red;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btns{
+    width: 50%;
+    border: solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
